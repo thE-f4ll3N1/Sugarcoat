@@ -422,6 +422,13 @@ h6 {
   line-height: 18px;
 }
 
+/* Css for Privacy and terms*/
+h1.h3.privacy {
+  margin-left: 0vw;
+  margin-right: 0vw;
+  padding: 2vw 2vw;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 10px;
@@ -2911,7 +2918,7 @@ blockquote {
 
 .section.hero-home {
   height: 100vh;
-  background-image: linear-gradient(rgba(21, 21, 30, .16), rgba(21, 21, 30, .16)), url("https://uploads-ssl.webflow.com/648724df0b2ffbaf8f9f2a82/64c90a15b54ad4989cb7fc30_sc-hero-01.jpg");
+  background-image: linear-gradient(rgba(21, 21, 30, .16), rgba(21, 21, 30, .16)), url("/images/sc-hero-01.jpg");
   background-position: 0 0, 50%;
   background-size: auto, cover;
   background-attachment: scroll, scroll;
@@ -2934,7 +2941,7 @@ blockquote {
 }
 
 .section.blue.rounded {
-  background-image: url("https://uploads-ssl.webflow.com/648724df0b2ffbaf8f9f2a82/6487fa87c58d392b8a4b48c5_Untitled-1.jpg");
+  background-image: url("/images/hero-background.jpg");
   background-position: 0 0;
   background-size: cover;
   border-radius: 16px;
@@ -3370,6 +3377,13 @@ blockquote {
   margin-left: 12%;
 }
 
+/*Css for about q n a*/
+.paragraph.about-para-2{
+  margin-left: 0vw;
+  margin-right: 84vw;
+  padding: 0px 0px;
+}
+
 .q-a {
   width: 100%;
   background-color: #f7f7f7;
@@ -3715,7 +3729,7 @@ blockquote {
 }
 
 .half-bg-image-bottom.height-430px.contact-v7 {
-  background-image: url("https://uploads-ssl.webflow.com/648724df0b2ffbaf8f9f2a82/649977aec924550c7aa141da_map-sugarcoat.jpg");
+  background-image: url("/images/map-sugarcoat.jpg");
   background-position: 0 0;
   background-size: cover;
   margin-top: -5px;
@@ -4150,7 +4164,7 @@ blockquote {
   }
 
   .section.hero-home {
-    background-image: linear-gradient(to bottom, null, null), url("https://uploads-ssl.webflow.com/648724df0b2ffbaf8f9f2a82/648724df0b2ffbaf8f9f2b1c_IMG%20HERO.jpg");
+    background-image: linear-gradient(to bottom, null, null), url("/images/sc-hero-01.jpg");
     background-position: 0 0, 50% 0;
   }
 
@@ -4752,7 +4766,7 @@ blockquote {
   }
 
   .section.hero-home {
-    background-image: linear-gradient(to bottom, null, null), url("https://uploads-ssl.webflow.com/648724df0b2ffbaf8f9f2a82/648724df0b2ffbaf8f9f2b1c_IMG%20HERO.jpg");
+    background-image: linear-gradient(to bottom, null, null), url("/images/sc-hero-01.jpg");
     background-size: auto, contain;
   }
 
@@ -5248,28 +5262,28 @@ blockquote {
 
 @font-face {
   font-family: 'Comic Gecko';
-  src: url('https://uploads-ssl.webflow.com/648724df0b2ffbaf8f9f2a82/64872c70afce47423d676873_Comic_Gecko.ttf') format('truetype');
+  src: url('/fonts/Comic_Gecko.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Calibri';
-  src: url('https://uploads-ssl.webflow.com/648724df0b2ffbaf8f9f2a82/64c90e4e04af347d527118aa_calibri-regular.ttf') format('truetype');
+  src: url('/fonts/calibri-regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Calibri';
-  src: url('https://uploads-ssl.webflow.com/648724df0b2ffbaf8f9f2a82/64c90e4ef202d7871a6fb141_calibri-bold.ttf') format('truetype');
+  src: url('/fonts/calibri-bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Calibri';
-  src: url('https://uploads-ssl.webflow.com/648724df0b2ffbaf8f9f2a82/64c90e4eeb3d3c42155395ff_calibri-italic.ttf') format('truetype');
+  src: url('/fonts/calibri-italic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
