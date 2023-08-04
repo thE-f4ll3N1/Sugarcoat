@@ -2399,7 +2399,7 @@ blockquote {
 }
 
 .h1.center.white {
-  background-image: url("https://uploads-ssl.webflow.com/648724df0b2ffbaf8f9f2a82/648728c3ae733ec188143b56_sc-logo-01.png");
+  background-image: url("/images/sc-logo-01.png");
   background-position: 50%;
   background-size: cover;
   background-attachment: scroll;
