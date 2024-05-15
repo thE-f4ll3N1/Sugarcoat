@@ -4689,7 +4689,7 @@ blockquote {
   .container {
     padding-left: 16px;
     padding-right: 16px;
-    font-size: 2vw;
+    font-size: 3vw; /*changed from 2 to 3*/
   }
 
   .navigation {
@@ -4940,6 +4940,141 @@ blockquote {
     font-family: Great Vibes, cursive;
   }
 }
+
+/* Newly added code for services section mobile devices optimisation */
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.service-card {
+  background: #000000;
+  color:rgba(247, 247, 247, .95);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.book-now-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.book-now-btn:hover {
+  background: #d35400;
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* For table like structure */
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.service-card {
+  background: #050000;
+  color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.service-prices {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.service-name {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price-details span {
+  display: block;
+}
+
+.note {
+  font-style: italic;
+  color: #888;
+}
+
+.book-now-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.book-now-btn:hover {
+  background: #d35400;
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 #w-node-_6937b2cb-76b4-71d8-c268-57e3d99812de-4df54e6e, #w-node-_00550774-d7ad-ea19-ab6a-d348d2fdd646-4df54e6e {
   grid-area: span 1 / span 1 / span 1 / span 1;
