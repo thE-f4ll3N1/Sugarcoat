@@ -4951,7 +4951,7 @@ blockquote {
 }
 
 .service-card {
-  background: #000000;
+  background: #64348C;
   color:rgba(247, 247, 247, .95);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -4974,7 +4974,7 @@ blockquote {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background: #e67e22;
+  background: #348C56;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -5002,7 +5002,7 @@ blockquote {
 }
 
 .service-card {
-  background: #050000;
+  background: #64348C;
   color: #f3f3f3;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -5057,7 +5057,7 @@ blockquote {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
-  background: #e67e22;
+  background: #348C56;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -5065,7 +5065,7 @@ blockquote {
 }
 
 .book-now-btn:hover {
-  background: #d35400;
+  background: #FFE5DE;
 }
 
 @media (max-width: 768px) {
@@ -5098,6 +5098,10 @@ blockquote {
     position: relative;
 }
 
+.service-description {
+  text-align: left;
+  font-style: italic;
+}
 
 #w-node-_6937b2cb-76b4-71d8-c268-57e3d99812de-4df54e6e, #w-node-_00550774-d7ad-ea19-ab6a-d348d2fdd646-4df54e6e {
   grid-area: span 1 / span 1 / span 1 / span 1;
