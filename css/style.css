@@ -5103,6 +5103,62 @@ blockquote {
   font-style: italic;
 }
 
+/*Offer page*/
+.offer-heading {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #421595; /* Customize the color */
+  margin-bottom: 10px;
+  text-align: center;
+  font-style: normal;
+}
+
+.offer-description {
+  font-family: "Lato", sans-seriff;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  color: #06073a; /* Slightly darker text for description */
+  margin-bottom: 10px;
+  text-align: center;
+}
+/*Offer page flashing message*/
+/* Container positioned in the bottom-left corner */
+.flashing-message-container {
+  position: fixed; /* Fixed position to keep it on screen */
+  bottom: 15px; /* Adjust the distance from the bottom */
+  left: 15px; /* Adjust the distance from the left */
+  z-index: 9999; /* Ensures it stays on top of everything else */
+  text-align: left; /* Align content to the left */
+}
+
+/* Flashing message styles */
+.flashing-message {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ae4823;
+  animation: flash 1.5s infinite;
+  margin-bottom: 5px;
+}
+
+/* Flashing effect for the image */
+.onam-image {
+  max-width: 100px; /* Adjust size for bottom corner */
+  height: auto;
+  border-radius: 10px;
+  display: block; /* Ensures image stays under the text */
+  animation: flash 1.5s infinite; /* Add flashing effect */
+}
+
+/* Keyframes for the flashing effect */
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 #w-node-_6937b2cb-76b4-71d8-c268-57e3d99812de-4df54e6e, #w-node-_00550774-d7ad-ea19-ab6a-d348d2fdd646-4df54e6e {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
