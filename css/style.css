@@ -5104,25 +5104,29 @@ blockquote {
 }
 
 /*Offer page*/
-.offer-heading {
-  font-family: "Lato", sans-serif;
-  font-size: 24px;
-  font-weight: 900;
-  color: #421595; /* Customize the color */
-  margin-bottom: 10px;
+.offer-card {
+  width: 600px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  font-style: normal;
+  border-radius: 10px;
+}
+.offer-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.offer-heading {
+  font-size: 1.5rem;
+  color: #ae4823;
+  margin-top: 15px;
+}
+.offer-description {
+  font-size: 1rem;
+  color: #333;
 }
 
-.offer-description {
-  font-family: "Lato", sans-seriff;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 16px;
-  color: #06073a; /* Slightly darker text for description */
-  margin-bottom: 10px;
-  text-align: center;
-}
 /*Offer page flashing message*/
 /* Container positioned in the bottom-left corner */
 .flashing-message-container {
@@ -5145,7 +5149,7 @@ blockquote {
 
 /* Flashing effect for the image */
 .onam-image {
-  max-width: 100px; /* Adjust size for bottom corner */
+  max-width: 175px; /* Adjust size for bottom corner */
   height: auto;
   border-radius: 10px;
   display: block; /* Ensures image stays under the text */
