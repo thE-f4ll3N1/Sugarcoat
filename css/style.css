@@ -5307,6 +5307,31 @@ blockquote {
   }
 }
 /* Offer page ends */
+/* Offer button */
+.offer-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px; /* Adjust as needed */
+}
+
+.offer-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #b4355f; /* Change to match your theme */
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.offer-button:hover {
+  background-color: #c2185b;
+  transform: scale(1.05);
+}
+/* Offer button ends */
 /*Offer page flashing message*/
 /* Container positioned in the bottom-left corner */
 .flashing-message-container {
