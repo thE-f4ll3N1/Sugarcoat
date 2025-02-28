@@ -5104,7 +5104,7 @@ blockquote {
 }
 
 /*Offer page*/
-.offer-card {
+/* .offer-card {
   width: 600px;
   padding: 20px;
   background-color: #f9f9f9;
@@ -5125,8 +5125,188 @@ blockquote {
 .offer-description {
   font-size: 1rem;
   color: #333;
+} */
+
+/* New Offer Section */
+/* Fonts */
+.lustria-regular {
+  font-family: "Lustria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-thin {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
+.lato-light {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.ingrid-darling-regular {
+  font-family: "Ingrid Darling", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Fonts ends */
+/* .offer-heading {
+  color: #ff5733;
+  font-family: "Lustria", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+.offers-section {
+  max-width: 1200px;
+  margin: 70px auto;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.offers-section h2 {
+  font-size: 2.5rem;
+  color: #ff4081;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Lustria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.offers-headline-one{
+  font-family: Pacifico;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+.offers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+.offer {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(135deg, #2de2e2, #050c0c);
+  color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+.offer:hover {
+  transform: scale(1.05);
+}
+.offer img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  flex-shrink: 0;
+}
+.offer-content {
+  flex: 1;
+  padding: 0 20px;
+}
+.offer h3 {
+  font-size: 1.8rem;
+  margin: 0;
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.offer p {
+  font-size: 1rem;
+  margin: 10px 0;
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.offer .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  color: #ff4081;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s;
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.offer .btn:hover {
+  background: #f8c1d3;
+}
+@media (max-width: 768px) {
+  .offer {
+      flex-direction: column;
+      text-align: center;
+  }
+  .offer img {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 10px;
+  }
+}
+/* Offer page ends */
 /*Offer page flashing message*/
 /* Container positioned in the bottom-left corner */
 .flashing-message-container {
