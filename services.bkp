@@ -420,48 +420,48 @@
                         <div class="service-prices">
                             <div class="price-row">
                                 <span class="service-name">Half Arms</span>
-                                <span class="price-details"><span>O3 Plus 400</span>
-                                    <span>Rica 550</span>
+                                <span class="price-details"><span>Normal</span> 250 / <span>Premium</span> 400
+                                    <span>Rica</span> 550</span>
                             </div>
                             <div class="price-row">
                                 <span class="service-name">Full Arms</span>
-                                <span class="price-details"><span>O3 Plus 500</span>
-                                    <span>Rica 700</span>
+                                <span class="price-details"><span>Normal</span> 400 / <span>Premium</span> 500
+                                    <span>Rica</span> 700</span>
                             </div>
                             <div class="price-row">
                                 <span class="service-name">Underarms</span>
-                                <span class="price-details"><span>O3 Plus 150</span>
-                                    <span>Rica 200</span>
+                                <span class="price-details"><span>Normal</span> 100 / <span>Premium</span> 150
+                                    <span>Rica</span> 200</span>
                             </div>
                             <div class="price-row">
                                 <span class="service-name">Half Legs</span>
-                                <span class="price-details"><span>O3 Plus 600</span>
-                                    <span>Rica 750</span>
+                                <span class="price-details"><span>Normal</span> 400 / <span>Premium</span> 600
+                                    <span>Rica</span> 750</span>
                             </div>
                             <div class="price-row">
                                 <span class="service-name">Full Legs</span>
-                                <span class="price-details"><span>O3 Plus 800</span>
-                                    <span>Rica 900</span>
+                                <span class="price-details"><span>Normal</span> 600 / <span>Premium</span> 800
+                                    <span>Rica</span> 900</span>
                             </div>
                             <div class="price-row">
                                 <span class="service-name">Back</span>
-                                <span class="price-details"><span>O3 Plus 700</span>
-                                    <span>Rica 800</span>
+                                <span class="price-details"><span>Normal</span> 550 / <span>Premium</span> 700
+                                    <span>Rica</span> 800</span>
                             </div>
                             <div class="price-row">
                                 <span class="service-name">Stomach</span>
-                                <span class="price-details"><span>O3 Plus 600</span>
-                                    <span>Rica 700</span>
+                                <span class="price-details"><span>Normal</span> 500 / <span>Premium</span> 600
+                                    <span>Rica</span> 700</span>
                             </div>
                             <div class="price-row">
                                 <span class="service-name">Full Body <span class="note">(without bikini
                                         line)</span></span>
-                                <span class="price-details"><span>O3 Plus 3500</span>
-                                    <span>Rica 3700</span>
+                                <span class="price-details"><span>Normal</span> 2500 / <span>Premium</span> 3500
+                                    <span>Rica</span> 3700</span>
                             </div>
                             <div class="price-row">
                                 <span class="service-name">Full Bikini</span>
-                                <span class="price-details"><span>O3 Plus 2500</span><span>Rica 2800</span>
+                                <span class="price-details"><span>Normal</span> 1800 / <span>Premium</span> 2500</span>
                             </div>
                         </div>
                         <strong>Brazilian</strong><br>
@@ -473,7 +473,7 @@
                             <span class="service-name">Any part of face</span>
                             <span class="price-details">100 each</span>
                         </div><br>
-                        <!-- <span>Premium Wax used is O3-Detan wax/Cream wax</span> -->
+                        <span>Premium Wax used is O3-Detan wax/Cream wax</span>
                         </p>
                         <a href="/contact-us.html" class="book-now-btn">Book now</a>
                     </div>
